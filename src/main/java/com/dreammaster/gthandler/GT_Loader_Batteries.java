@@ -169,7 +169,7 @@ public class GT_Loader_Batteries
 
 		GT_Values.RA.addCannerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.CosmicNeutronium, 16L),
 				CustomItemList.BatteryHull_UHV_Large.get(1L),
-				CustomItemList.BatteryHull_UHV_Full.get(1L),
+				CustomItemList.BatteryHull_UHV_Large_Full.get(1L),
 				null, 350, 15720);
 
 		// UEV 8388608
