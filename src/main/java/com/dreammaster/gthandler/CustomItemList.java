@@ -29,8 +29,8 @@ public enum CustomItemList implements IItemContainer
 	Transformer_UEV_UHV, Transformer_UIV_UEV, Transformer_UMV_UIV, Transformer_UXV_UMV, Transformer_OPV_UXV, Transformer_MAXV_OPV,
 	WetTransformer_LV_ULV, WetTransformer_MV_LV, WetTransformer_HV_MV, WetTransformer_EV_HV, WetTransformer_IV_EV, WetTransformer_LuV_IV, WetTransformer_ZPM_LuV, WetTransformer_UV_ZPM, WetTransformer_UHV_UV, WetTransformer_UEV_UHV, WetTransformer_UIV_UEV, WetTransformer_UMV_UIV, WetTransformer_UXV_UMV, WetTransformer_OPV_UXV, WetTransformer_MAXV_OPV,
 	Transformer_HA_UEV_UHV, Transformer_HA_UIV_UEV, Transformer_HA_UMV_UIV, Transformer_HA_UXV_UMV, Transformer_HA_OPV_UXV, Transformer_HA_MAXV_OPV,
-	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV, BatteryHull_UHV, BatteryHull_UEV, BatteryHull_UIV, BatteryHull_UMV, BatteryHull_UxV,
-	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full, BatteryHull_UHV_Full, BatteryHull_UEV_Full, BatteryHull_UIV_Full, BatteryHull_UMV_Full, BatteryHull_UxV_Full,
+	BatteryHull_EV, BatteryHull_IV, BatteryHull_LuV, BatteryHull_ZPM, BatteryHull_UV, BatteryHull_UHV, BatteryHull_UHV_Large, BatteryHull_UEV, BatteryHull_UIV, BatteryHull_UMV, BatteryHull_UxV,
+	BatteryHull_EV_Full, BatteryHull_IV_Full, BatteryHull_LuV_Full, BatteryHull_ZPM_Full, BatteryHull_UV_Full, BatteryHull_UHV_Full, BatteryHull_UHV_Large_Full, BatteryHull_UEV_Full, BatteryHull_UIV_Full, BatteryHull_UMV_Full, BatteryHull_UxV_Full,
 
 	Generator_Plasma_ZPMV, Generator_Plasma_UV, Generator_Plasma_UHV, Generator_Plasma_UEV, Generator_Plasma_UIV, Generator_Plasma_UMV,
 	AlloySmelterLuV, AlloySmelterZPM, AlloySmelterUV, AlloySmelterUHV, AlloySmelterUEV, AlloySmelterUIV, AlloySmelterUMV,
