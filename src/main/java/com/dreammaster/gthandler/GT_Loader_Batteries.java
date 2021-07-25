@@ -105,14 +105,14 @@ public class GT_Loader_Batteries
 		CustomItemList.BatteryHull_UV_Full.set(GT.addItem(tLastID = 560, "Large Naquadria Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 128L)}));
 	    GT.setElectricStats(32000 + tLastID, 1638400000L, GT_Values.V[8], 8L, -3L, true);
 
-		CustomItemList.BatteryHull_UV_Large_Full.set(GT.addItem(tLastID = 561, "Extra Large Naquadria Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 128L)}));
+		CustomItemList.BatteryHull_UV_Large_Full.set(GT.addItem(tLastID = 561, "Extra Large Naquadria Battery", "Fill this UV storage to have way less electricity (reusable)\"", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 128L)}));
 		GT.setElectricStats(32000 + tLastID, 9223372036854775807L, GT_Values.V[8], 8L, -3L, true);
 
 		CustomItemList.BatteryHull_UHV_Full.set(GT.addItem(tLastID = 570, "Small Neutronium Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 256L)}));
 		GT.setElectricStats(32000 + tLastID, 6553600000L, GT_Values.V[9], 9L, -3L, true);
 
-		CustomItemList.BatteryHull_UHV_Large_Full.set(GT.addItem(tLastID = 571, "Extra Large Neutronium Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 256L)}));
-		GT.setElectricStats(32000 + tLastID, 1677721600000L, GT_Values.V[9], 9L, -3L, true);
+		CustomItemList.BatteryHull_UHV_Large_Full.set(GT.addItem(tLastID = 571, "Extra Large Neutronium Battery", "Fill this UHV storage to have even less electricity (reusable)", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 256L)}));
+		GT.setElectricStats(32000 + tLastID, 9223372036854775807L, GT_Values.V[9], 9L, -3L, true);
 
 		CustomItemList.BatteryHull_UEV_Full.set(GT.addItem(tLastID = 575, "Medium Neutronium Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 512L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 512L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 512L)}));
 		GT.setElectricStats(32000 + tLastID, 26214400000L, GT_Values.V[10], 10L, -3L, true);
