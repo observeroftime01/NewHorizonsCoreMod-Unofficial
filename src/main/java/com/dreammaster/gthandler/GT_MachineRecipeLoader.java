@@ -2158,6 +2158,12 @@ public class GT_MachineRecipeLoader implements Runnable{
         this.run3();
         }
     public void run3() {
+
+        //Additional Fluid Extractor Recipes
+        GT_Values.RA.addFluidExtractionRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Aluminium, 1), null, Materials.Aluminium.getFluid(144L), 100, 20, 480);
+        GT_Values.RA.addFluidExtractionRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Aluminium, 1), null, Materials.Aluminium.getFluid(288L), 100, 60, 480);
+
+
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Parts_Glass_Tube.get(4L), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Copper, 4), GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Steel, 4)}, Materials.RedAlloy.getMolten(72L), ItemList.Circuit_Parts_Vacuum_Tube.get(4L), 160, 8);
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Parts_Glass_Tube.get(4L), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.Copper, 4), GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Steel, 4)}, Materials.RedstoneAlloy.getMolten(72L), ItemList.Circuit_Parts_Vacuum_Tube.get(8L), 160, 8);
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Parts_Glass_Tube.get(4L), GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.AnnealedCopper, 4), GT_OreDictUnificator.get(OrePrefixes.stick, Materials.Steel, 4)}, Materials.RedAlloy.getMolten(72L), ItemList.Circuit_Parts_Vacuum_Tube.get(8L), 160, 8);

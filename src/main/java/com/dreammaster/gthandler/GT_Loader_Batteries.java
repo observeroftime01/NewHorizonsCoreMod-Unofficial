@@ -57,10 +57,12 @@ public class GT_Loader_Batteries
 		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.NaquadahAlloy, 2L),
 				GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Europium, 6L), Materials.Polybenzimidazole.getMolten(288L),
 				CustomItemList.BatteryHull_ZPM.get(1L), 200, 30720);
+
 		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.ElectrumFlux, 2L),
 				GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Americium, 18L), Materials.Polybenzimidazole.getMolten(576L),
 				CustomItemList.BatteryHull_UV.get(1L), 300, 122880);
-		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt02, Materials.ElectrumFlux, 4L),
+
+		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt08, Materials.ElectrumFlux, 4L),
 				GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.Americium, 18L), Materials.Polybenzimidazole.getMolten(2304L),
 				CustomItemList.BatteryHull_UV_Large.get(1L), 3000, 122880);
 
@@ -104,7 +106,7 @@ public class GT_Loader_Batteries
 	    GT.setElectricStats(32000 + tLastID, 1638400000L, GT_Values.V[8], 8L, -3L, true);
 
 		CustomItemList.BatteryHull_UV_Large_Full.set(GT.addItem(tLastID = 561, "Extra Large Naquadria Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 128L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 128L)}));
-		GT.setElectricStats(32000 + tLastID, 1677721600000L, GT_Values.V[8], 8L, -3L, true);
+		GT.setElectricStats(32000 + tLastID, 9223372036854775807L, GT_Values.V[8], 8L, -3L, true);
 
 		CustomItemList.BatteryHull_UHV_Full.set(GT.addItem(tLastID = 570, "Small Neutronium Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 256L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 256L)}));
 		GT.setElectricStats(32000 + tLastID, 6553600000L, GT_Values.V[9], 9L, -3L, true);
@@ -168,7 +170,8 @@ public class GT_Loader_Batteries
 	    		CustomItemList.BatteryHull_UV.get(1L),
 	    		CustomItemList.BatteryHull_UV_Full.get(1L),
 	    		null, 300, 7860);
-		GT_Values.RA.addCannerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.EnrichedNaquadria, 32L),
+
+		GT_Values.RA.addCannerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Oriharukon, 32L),
 				CustomItemList.BatteryHull_UV_Large.get(1L),
 				CustomItemList.BatteryHull_UV_Large_Full.get(1L),
 				null, 4800, 31440);
