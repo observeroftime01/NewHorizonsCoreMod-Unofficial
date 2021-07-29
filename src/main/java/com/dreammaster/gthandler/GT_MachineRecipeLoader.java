@@ -2262,8 +2262,8 @@ public class GT_MachineRecipeLoader implements Runnable{
 
         //GT_Values.RA.addChemicalRecipe(ItemList.Circuit_Chip_Stemcell.get(4L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.MysteriousCrystal, 1), Materials.BioMediumRaw.getFluid(1000L), FluidRegistry.getFluidStack("mutagen", 250), ItemList.Circuit_Chip_Biocell.get(1L), 1200, 500000);
 
-        GT_Values.RA.addAutoclaveSpaceRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 1), GT_Values.NI, Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1L), 1000, 12000, 320, true);
-        GT_Values.RA.addAutoclaveSpaceRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 1), GT_Values.NI, Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1L), 1000, 12000, 320, true);
+        GT_Values.RA.addAutoclaveSpaceRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 1), GT_Values.NI, Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1L), 1000, 12000, 320, false);
+        GT_Values.RA.addAutoclaveSpaceRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 1), GT_Values.NI, Materials.Europium.getMolten(16), ItemList.Circuit_Parts_RawCrystalChip.get(1L), 1000, 12000, 320, false);
 
         GT_Values.RA.addForgeHammerRecipe(ItemList.Circuit_Parts_RawCrystalChip.get(1L), ItemList.Circuit_Parts_RawCrystalParts.get(9), 100, 480);
         if (Loader.isModLoaded("GalacticraftMars"))
