@@ -2352,7 +2352,7 @@ public class GT_MachineRecipeLoader implements Runnable{
         // --- Stargates
         if (Loader.isModLoaded("GalaxySpace") && Loader.isModLoaded("SGCraft"))
             for (int i = 0; i < 6; ++i)
-                GT_Values.RA.addExtractorRecipe(GT_ModHandler.getModItem("GalaxySpace", "tcetiedandelions", 64L, i), com.dreammaster.item.ItemList.TCetiESeaweedExtract.getIS(), 3600, 262144);
+                GT_Values.RA.addExtractorRecipe(GT_ModHandler.getModItem("GalaxySpace", "tcetiedandelions", 64L, i), com.dreammaster.item.ItemList.TCetiESeaweedExtract.getIS(4), 500, 65536);
         GT_Values.RA.addMixerRecipe(com.dreammaster.item.ItemList.TCetiESeaweedExtract.getIS().splitStack(64), Materials.Dolomite.getDust(64), Materials.SamariumMagnetic.getDust(21), Materials.ChromiumDioxide.getDust(64), GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Jasper, 54L), GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Opal, 47L), GT_Values.NF, GT_Values.NF, com.dreammaster.item.ItemList.StargateCrystalDust.getIS(), 3600, 262144);
         if (Loader.isModLoaded("SGCraft"))
         	GT_Values.RA.addAutoclaveSpaceRecipe(com.dreammaster.item.ItemList.StargateCrystalDust.getIS().splitStack(64),  GT_Values.NI, Materials.Silver.getPlasma(8000L), GT_ModHandler.getModItem("SGCraft", "sgCoreCrystal", 1L), 10000, 3600, 131000, true);

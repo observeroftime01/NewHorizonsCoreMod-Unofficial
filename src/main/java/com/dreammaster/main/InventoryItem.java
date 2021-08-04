@@ -26,8 +26,6 @@ public class InventoryItem implements IInventory
     private ItemStack[] inventory = new ItemStack[INV_SIZE];
 
     /**
-     * @param itemstack
-     *            - the ItemStack to which this inventory belongs
      */
     public InventoryItem(ItemStack stack)
     {
