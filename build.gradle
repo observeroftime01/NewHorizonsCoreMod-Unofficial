@@ -112,6 +112,7 @@ configurations.all {
 
 dependencies {
     compile "eu.usrv:YAMCore:${config.minecraft.version}-${config.yamcore.version}:deobf"
+	compile ("com.github.GTNewHorizons:StructureLib:${config.structurelib.version}:deobf")
     compile "com.azanor.baubles:Baubles:${config.baubles.version}:deobf"
     compile ("appeng:appliedenergistics2:${config.ae2.version}:api") {
         exclude module: "*"
