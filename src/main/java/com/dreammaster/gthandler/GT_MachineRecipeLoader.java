@@ -653,7 +653,10 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addBlastRecipe(CustomItemList.InfernalBrick.get(1L), CustomItemList.CokeOvenBrick.get(1L), Materials.Oxygen.getGas(1000L), GT_Values.NF, CustomItemList.AdvancedCokeOvenBrick.get(2L), GT_Values.NI, 1200, 120, 1600);
 
         GT_Values.RA.addBlastRecipe(CustomItemList.RawNeutronium.get(1L), GT_Utility.getIntegratedCircuit(11), Materials.Argon.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_Values.NI, 10000, 500000, 9000);
-        
+        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Neutronium, 1L), GT_Utility.getIntegratedCircuit(11), Materials.Argon.getGas(1000L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_Values.NI, 10000, 500000, 9000);
+        GT_Values.RA.addBlastRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Neutronium, 1L), GT_Utility.getIntegratedCircuit(11), Materials.Radon.getGas(144L), GT_Values.NF, GT_OreDictUnificator.get(OrePrefixes.ingotHot, Materials.Neutronium, 1L), GT_Values.NI, 7500, 500000, 9000);
+
+
         GT_Values.RA.addBlastRecipe(Materials.Zincite.getDust(2), Materials.Carbon.getDust(1), GT_Values.NF, Materials.CarbonDioxide.getGas(1000L), Materials.Zinc.getIngots(3), Materials.Ash.getDustTiny(2), 240, 120, 1200);
         
         GT_Values.RA.addBrewingRecipe(GT_ModHandler.getModItem("IC2", "itemBiochaff", 1L, 0), FluidRegistry.getFluid("water"), FluidRegistry.getFluid("ic2biomass"), false);
