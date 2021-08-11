@@ -308,8 +308,8 @@ public class BacteriaRegistry {
                 new ItemStack[]{ItemList.Circuit_Chip_Stemcell.get(16L), GT_ModHandler.getModItem("GalaxySpace","item.UnknowCrystal",16L), CustomItemList.TCetiESeaweedExtract.get(8L), InfinityCatalyst.getDustTiny(4)},
                 CultureSet.get("BioCellBac"),
                 new FluidStack[]{GrowthMediumRaw.getFluid(5)},
-                new FluidStack[]{BioMediumRaw.getFluid(5)},
-                3600, 122880, NaquadahEnriched, 7, CLEANROOM, true);
+                new FluidStack[]{BioMediumRaw.getFluid(7)},
+                2700, 122880, NaquadahEnriched, 7, CLEANROOM, false);
 
         addBacterialVatRecipe(
                 new ItemStack[]{ItemList.Circuit_Chip_Biocell.get(8L), CustomItemList.TCetiESeaweedExtract.get(16L), InfinityCatalyst.getDust(4)},
