@@ -827,7 +827,13 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Manyullyn, 9L), GT_OreDictUnificator.get(OrePrefixes.block, Materials.Manyullyn, 1L), 300, 2);
         GT_Values.RA.addCompressorRecipe(GT_OreDictUnificator.get(OrePrefixes.ingot, Materials.Alumite, 9L), GT_OreDictUnificator.get(OrePrefixes.block, Materials.Alumite, 1L), 300, 2);
         this.run2();
+        this.CustomRecipeRun();
     }
+
+    public void CustomRecipeRun() {
+        new GT_Custom_Recipe_Loader().run();
+    }
+
 
     private void makeCoilRecipes() {
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Cupronickel,       8L), CustomItemList.AluminoSilicateWool.get(12L),    Materials.Tin.getMolten(144L),          ItemList.Casing_Coil_Cupronickel.get(1L),       100,          7);
