@@ -850,6 +850,8 @@ public class GT_MachineRecipeLoader implements Runnable{
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.Trinium,           8L), CustomItemList.MicaInsulatorFoil.get(  40L),    Materials.NaquadahAlloy.getMolten(144L),ItemList.Casing_Coil_Trinium.get(1L),          1000,    122_880);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.ElectrumFlux,      8L), CustomItemList.MicaInsulatorFoil.get(  44L),    Materials.Trinium.getMolten(144L),      ItemList.Casing_Coil_ElectrumFlux.get(1L),     1100,    491_520);
         GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.DraconiumAwakened, 8L), CustomItemList.MicaInsulatorFoil.get(  48L),    Materials.ElectrumFlux.getMolten(144L), ItemList.Casing_Coil_AwakenedDraconium.get(1L),1200,  1_966_080);
+        GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.Infinity,          8L), CustomItemList.MicaInsulatorFoil.get(  62L),    Materials.DraconiumAwakened.getMolten(144L), ItemList.Casing_Coil_Infinity.get(1L),    1300,  7_864_320);
+
     }
 
     public void run2() {

@@ -27,3 +27,4 @@ SetupDevWorkspaces.bat
 .idea/
 *.db
 *.bat
+/build/
