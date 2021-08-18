@@ -2900,43 +2900,43 @@ public class GT_Loader_Machines
 		CustomItemList.ChemicalReactorLuV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11150, "basicmachine.chemicalreactor.tier.06", "Elite Chemical Reactor", 6,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 20000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11151, "basicmachine.chemicalreactor.tier.07", "Elite Chemical Reactor II", 7,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 24000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11152, "basicmachine.chemicalreactor.tier.08", "Ultimate Chemical Perforer", 8,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 28000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11153, "basicmachine.chemicalreactor.tier.09", "Epic Chemical Performer", 9,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 32000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11154, "basicmachine.chemicalreactor.tier.10", "Epic Chemical Performer II",10,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 32000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11155, "basicmachine.chemicalreactor.tier.11", "Epic Chemical Performer III",11,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 32000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 		CustomItemList.ChemicalReactorUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11156, "basicmachine.chemicalreactor.tier.12", "Epic Chemical Performer IV",12,
 				"Letting Chemicals react with each other", GT_Recipe.GT_Recipe_Map.sChemicalRecipes,
-				2, 2, 16000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
+				2, 2, 32000, 0, 1, "ChemicalReactor.png", GregTech_API.sSoundList.get(200),
 				false, false, 0, "CHEMICAL_REACTOR", null).getStackForm(1L));
 
 
@@ -3345,37 +3345,37 @@ public class GT_Loader_Machines
 		CustomItemList.FluidHeaterZPM.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11201, "basicmachine.fluidheater.tier.07", "Elite Fluid Heater II", 7,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
-				1, 0, 8000, 0, 1, "FluidHeater.png", "",
+				1, 0, 16000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11202, "basicmachine.fluidheater.tier.08", "Ultimate Heat Infuser", 8,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
-				1, 0, 8000, 0, 1, "FluidHeater.png", "",
+				1, 0, 20000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUHV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11203, "basicmachine.fluidheater.tier.09", "Epic Heat Infuser", 9,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
-				1, 0, 8000, 0, 1, "FluidHeater.png", "",
+				1, 0, 24000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUEV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11204, "basicmachine.fluidheater.tier.10", "Epic Heat Infuser II",10,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
-				1, 0, 8000, 0, 1, "FluidHeater.png", "",
+				1, 0, 28000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUIV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11205, "basicmachine.fluidheater.tier.11", "Epic Heat Infuser III",11,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
-				1, 0, 8000, 0, 1, "FluidHeater.png", "",
+				1, 0, 32000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 		CustomItemList.FluidHeaterUMV.set(new GT_MetaTileEntity_BasicMachine_GT_Recipe(
 				11206, "basicmachine.fluidheater.tier.12", "Epic Heat Infuser IV",12,
 				"Heating up your Fluids", GT_Recipe.GT_Recipe_Map.sFluidHeaterRecipes,
-				1, 0, 8000, 0, 1, "FluidHeater.png", "",
+				1, 0, 32000, 0, 1, "FluidHeater.png", "",
 				false, false, 0, "FLUID_HEATER", null).getStackForm(1L));
 
 
