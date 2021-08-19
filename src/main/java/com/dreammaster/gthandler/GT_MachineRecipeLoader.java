@@ -3301,8 +3301,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                 ItemList.Circuit_Board_Multifiberglass.get(1L),
                 GT_OreDictUnificator.get(OrePrefixes.foil, Materials.NaquadahAlloy, 64L),
                 new Object[]{OrePrefixes.circuit.get(Materials.Master), 4L},
-                ItemList.Circuit_Parts_Crystal_Chip_Master.get(36L),
-                ItemList.Circuit_Parts_Crystal_Chip_Master.get(36L),
+                ItemList.Circuit_Parts_Crystal_Chip_Master.get(64L),
                 ItemList.Circuit_Chip_HPIC.get(64L),
                 ItemList.Circuit_Parts_DiodeASMD.get(8L),
                 ItemList.Circuit_Parts_CapacitorASMD.get(8L),
@@ -3310,7 +3309,7 @@ public class GT_MachineRecipeLoader implements Runnable{
                 ItemList.Circuit_Parts_TransistorASMD.get(8L),
                 GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Platinum, 64),
         }, new FluidStack[]{
-                Materials.SolderingAlloy.getMolten(720L)
+                Materials.SolderingAlloy.getMolten(1152L)
         }, ItemList.Energy_LapotronicOrb2.get(1L), 1000, 80000);
 
         if (Loader.isModLoaded("GraviSuite")) {
