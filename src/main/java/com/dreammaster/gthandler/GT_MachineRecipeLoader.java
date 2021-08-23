@@ -2755,6 +2755,9 @@ public class GT_MachineRecipeLoader implements Runnable{
                     GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[] {RocketMaterial[i],ItemList.Circuit_Data.get(1L),DataStickWScheme.splitStack(0)},tMat.getMolten(576L * tMultiplier / 2L),ExtraChips[i], 9000, EUperRecipe[i], true);
                     GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[] {RocketMaterial[i],ItemList.Circuit_Nanocomputer.get(1L),DataStickWScheme.splitStack(0)},tMat.getMolten(576L * tMultiplier / 2L),ExtraChips[i], 9000, EUperRecipe[i], true);
                 }
+
+                /*      Disabled here, will generate in GT5u Instead, without the recursive nature. No more 2x T-1 = 1x T
+
                 //Primitive Circuit
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Phenolic_Good.get(1L), ItemList.Circuit_Chip_Simple_SoC.get(1L), GT_OreDictUnificator.get(OrePrefixes.bolt, Materials.RedAlloy, 2),  GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Tin, 2)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.NandChip.get(4L), 300, 120);
 
@@ -2856,6 +2859,8 @@ public class GT_MachineRecipeLoader implements Runnable{
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Chip_BioCPU.get(1L),ItemList.Circuit_Chip_CrystalSoC2.get(1L), ItemList.Circuit_Chip_NanoCPU.get(2L), ItemList.Circuit_Parts_CapacitorASMD.get(12L),ItemList.Circuit_Parts_TransistorASMD.get(12L),GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 16)},tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Bioprocessor.get(1L), 300, 153600, true);
                 //GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Bio_Ultra.get(1L), ItemList.Circuit_Bioprocessor.get(2L), ItemList.Circuit_Parts_Coil.get(48L), ItemList.Circuit_Parts_CapacitorSMD.get(64L), ItemList.Circuit_Chip_Ram.get(32L), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 24)}, tMat.getMolten(144L * tMultiplier), ItemList.Circuit_Biowarecomputer.get(1L), 800, 153600, true);
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Bio_Ultra.get(1L), ItemList.Circuit_Bioprocessor.get(2L), ItemList.Circuit_Parts_Coil.get(48L), ItemList.Circuit_Parts_CapacitorASMD.get(16L), ItemList.Circuit_Chip_Ram.get(32L), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.NiobiumTitanium, 24)}, tMat.getMolten(144L * tMultiplier), ItemList.Circuit_Biowarecomputer.get(1L), 400, 153600, true);
+
+                */
 
                 //SoC
                 GT_Values.RA.addCircuitAssemblerRecipe(new ItemStack[]{ItemList.Circuit_Board_Plastic_Advanced.get(1L), ItemList.Circuit_Chip_SoC.get(1L), GT_OreDictUnificator.get(OrePrefixes.wireFine, Materials.Copper, 2), GT_OreDictUnificator.get(OrePrefixes.bolt, Materials.Copper, 2)}, tMat.getMolten(144L * tMultiplier / 2L), ItemList.Circuit_Microprocessor.get(2L), 50, 600, true);

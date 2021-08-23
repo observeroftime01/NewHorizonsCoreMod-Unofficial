@@ -41,6 +41,8 @@ public class GT_Loader_Wires
         makeWires(Materials.Trinium, 11450, bEC ? 4L : 16L, bEC ? 8L : 32L, 6L, GT_Values.V[7], true, false);
         makeWires(Materials.HSSS, 11470, bEC ? 4L : 16L, bEC ? 8L : 32L, 6L, GT_Values.V[9], true, false);
 
+        //INFO: 11490 to 11910 appear to be free as of 2021-08-20
+
         /** ID SPACE RESERVED: to 11800, FOR WIRES
         makeWires(Materials.???, 1920, 4L, 8L, 8L, gregtech.api.enums.GT_Values.V[8], true, false);
         2000 and 2010 are used for RedAlloy and Super Conductor **/
