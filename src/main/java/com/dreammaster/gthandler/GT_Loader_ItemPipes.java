@@ -58,6 +58,9 @@ public final class GT_Loader_ItemPipes {
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveLarge.get(Materials.Tin), new GT_MetaPipeEntity_Item(5597, "GT_Pipe_Restrictive_Tin_Large", "Large Restrictive " + displayName + " Item Pipe", 0.75F, Materials.Tin, 1, 3276800, true).getStackForm(1L));
         GT_OreDictUnificator.registerOre(OrePrefixes.pipeRestrictiveHuge.get(Materials.Tin), new GT_MetaPipeEntity_Item(5598, "GT_Pipe_Restrictive_Tin_Huge", "Huge Restrictive " + displayName + " Item Pipe", 0.875F, Materials.Tin, 2, 1638400, true).getStackForm(1L));
 
+        //5570 - 5579
+        //Oriharukon
+        generateItemPipes(Materials.Oriharukon, Materials.Oriharukon.mName, 5570, 512);
         generateItemPipes(Materials.ElectrumFlux, Materials.ElectrumFlux.mName, 5650, 16);
         generateItemPipes(Materials.BlackPlutonium, Materials.BlackPlutonium.mName, 5660, 32);
         generateItemPipes(Materials.Bedrockium, Materials.Bedrockium.mName, 5670, 64);
