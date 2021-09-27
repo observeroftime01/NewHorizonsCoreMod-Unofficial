@@ -13,6 +13,7 @@ public final class GT_Loader_ItemPipes {
     private GT_Loader_ItemPipes() {}
 
     public static void registerPipes() {
+        //FREE ID's: 5360 - 5399, 5460 - 5499
 
         // These IDs are totally messed up. Watch out if you want to add or change something here!
 

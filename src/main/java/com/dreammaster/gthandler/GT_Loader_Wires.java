@@ -21,7 +21,8 @@ public class GT_Loader_Wires
         boolean bEC = !GT_Mod.gregtechproxy.mHardcoreCables;
     	// ID Range: 1200 - 4100
     	// Free IDs: 2030 - 4100
-    	
+
+        //FREE ID's: 5360 - 5399, 5460 - 5499
 
 
         // ===================================================================================================
