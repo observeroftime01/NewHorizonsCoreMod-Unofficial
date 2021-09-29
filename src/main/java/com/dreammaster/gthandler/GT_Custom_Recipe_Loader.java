@@ -2,6 +2,8 @@ package com.dreammaster.gthandler;
 
 import com.dreammaster.item.ItemList;
 import gregtech.api.enums.GT_Values;
+import gregtech.api.enums.Materials;
+import gregtech.api.enums.OrePrefixes;
 import gregtech.api.util.GT_Config;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_OreDictUnificator;
@@ -47,6 +49,18 @@ public class GT_Custom_Recipe_Loader implements Runnable{
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{GT_OreDictUnificator.get(dust, Diamond, 1L), GT_OreDictUnificator.get(dust, Silicon, 1L), GT_OreDictUnificator.get(dust, Redstone, 7L), GT_OreDictUnificator.get(dust, Ruby, 4L), GT_OreDictUnificator.get(dust, Emerald, 1L), GT_Utility.getIntegratedCircuit(18)}, null, ItemList.EngineeringProcessorItemEmeraldCore.getIS(1), 20, Voltage.EV.getVoltage());
         GT_Values.RA.addAssemblerRecipe(new ItemStack[]{GT_OreDictUnificator.get(dust, Diamond, 1L), GT_OreDictUnificator.get(dust, Redstone, 2L), GT_OreDictUnificator.get(dust, Silicon, 1L), GT_OreDictUnificator.get(dust, GarnetYellow, 9L), GT_OreDictUnificator.get(dust, Emerald, 1L), GT_Utility.getIntegratedCircuit(19)}, null, ItemList.EngineeringProcessorItemAdvEmeraldCore.getIS(1), 20, Voltage.IV.getVoltage());
 
+        //Some adjusted recipes - Lapotron Related
+        GT_Values.RA.addMixerRecipe(gregtech.api.enums.ItemList.IC2_Energium_Dust.get(1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Lapis, 4L), GT_Values.NI, GT_Values.NI, GT_Values.NI, GT_Utility.getIntegratedCircuit(2), GT_Values.NF, GT_Values.NF, CustomItemList.LapotronDust.get(5L), 600, 480);
+        GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(3L), Materials.EnergeticAlloy.getMolten(576L), CustomItemList.RawLapotronCrystal.get(1L), 10000, 2400, 480);
+        GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(3L), Materials.VibrantAlloy.getMolten(288L), CustomItemList.RawLapotronCrystal.get(1L), 10000, 1200, 480);
+        //Faster cutting
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_HPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_HPIC.get(2L), GT_Values.NI, 900, 7860, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_UHPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_UHPIC.get(2L), GT_Values.NI, 225, 30720, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_NPIC.get(2L), GT_Values.NI, 58, 122880, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_PPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_PPIC.get(2L), GT_Values.NI, 20, 500000, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QPIC.get(2L), GT_Values.NI, 20, 2000000, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NanoCPU.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_NanoCPU.get(8L), GT_Values.NI, 900, 480, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QuantumCPU.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QuantumCPU.get(4L), GT_Values.NI, 900, 1920, true);
 
 
 
