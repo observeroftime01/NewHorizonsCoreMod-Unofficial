@@ -54,11 +54,11 @@ public class GT_Custom_Recipe_Loader implements Runnable{
         GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(3L), Materials.EnergeticAlloy.getMolten(576L), CustomItemList.RawLapotronCrystal.get(1L), 10000, 2400, 480);
         GT_Values.RA.addAutoclaveRecipe(CustomItemList.LapotronDust.get(3L), Materials.VibrantAlloy.getMolten(288L), CustomItemList.RawLapotronCrystal.get(1L), 10000, 1200, 480);
         //Faster cutting
-        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_HPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_HPIC.get(2L), GT_Values.NI, 900, 7860, true);
-        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_UHPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_UHPIC.get(2L), GT_Values.NI, 225, 30720, true);
-        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_NPIC.get(2L), GT_Values.NI, 58, 122880, true);
-        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_PPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_PPIC.get(2L), GT_Values.NI, 20, 500000, true);
-        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QPIC.get(2L), GT_Values.NI, 20, 2000000, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_HPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_HPIC.get(8L), GT_Values.NI, 900, 7860, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_UHPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_UHPIC.get(8L), GT_Values.NI, 225, 30720, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_NPIC.get(8L), GT_Values.NI, 58, 122880, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_PPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_PPIC.get(8L), GT_Values.NI, 20, 500000, true);
+        GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QPIC.get(8L), GT_Values.NI, 20, 2000000, true);
         GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NanoCPU.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_NanoCPU.get(8L), GT_Values.NI, 900, 480, true);
         GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QuantumCPU.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QuantumCPU.get(4L), GT_Values.NI, 900, 1920, true);
         //Faster Production
