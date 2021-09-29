@@ -61,6 +61,10 @@ public class GT_Custom_Recipe_Loader implements Runnable{
         GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QPIC.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QPIC.get(2L), GT_Values.NI, 20, 2000000, true);
         GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NanoCPU.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_NanoCPU.get(8L), GT_Values.NI, 900, 480, true);
         GT_Values.RA.addCutterRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_QuantumCPU.get(1L), GT_Values.NI, gregtech.api.enums.ItemList.Circuit_Chip_QuantumCPU.get(4L), GT_Values.NI, 900, 1920, true);
+        //Faster Production
+        GT_Values.RA.addChemicalRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_PIC.get(1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.IndiumGalliumPhosphide, 2), Materials.VanadiumGallium.getMolten(288L), GT_Values.NF, gregtech.api.enums.ItemList.Circuit_Wafer_HPIC.get(1L), GT_Values.NI, 1200, 7860, true);
+        GT_Values.RA.addChemicalRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_HPIC.get(1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.IndiumGalliumPhosphide, 8), Materials.Naquadah.getMolten(576L), GT_Values.NF, gregtech.api.enums.ItemList.Circuit_Wafer_UHPIC.get(1L), GT_Values.NI, 400, 30720, true);
+        GT_Values.RA.addChemicalRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NPIC.get(1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.IndiumGalliumPhosphide, 64), Materials.Sunnarium.getMolten(1440L), GT_Values.NF, gregtech.api.enums.ItemList.Circuit_Wafer_PPIC.get(1L), GT_Values.NI, 100, 122880, true);
 
 
 
