@@ -42,6 +42,7 @@ public class GT_Loader_Batteries
 		CustomItemList.BatteryHull_UIV.set(GT.addItem(563, "Large Neutronium Battery (Empty)", "An empty UIV Energy Storage", new Object[] { new ItemData(Materials.NaquadahAlloy, OrePrefixes.plate.mMaterialAmount * 48L), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 1024L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 1024L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 1024L) }));
 		CustomItemList.BatteryHull_UMV.set(GT.addItem(564, "Medium Plasma Battery (Empty)", "An empty UMV Energy Storage", new Object[] { new ItemData(Materials.Neutronium, OrePrefixes.plate.mMaterialAmount * 56L), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 2048L) }));
 		CustomItemList.BatteryHull_UxV.set(GT.addItem(565, "Large Plasma Battery (Empty)", "An empty UXV Energy Storage", new Object[] { new ItemData(Materials.DraconiumAwakened, OrePrefixes.plate.mMaterialAmount * 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 4096L) }));
+		CustomItemList.BatteryHull_Small_UMV.set(GT.addItem(566, "Small Infinity Plasma Battery (empty)", "An empty UMV Energy Storage", new Object[] { new ItemData(Materials.Infinity, OrePrefixes.plate.mMaterialAmount * 64L), new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.VACUOS, 4096L) }));
 
 		// Recipes
 		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.cableGt01, Materials.Aluminium, 2L),
@@ -84,6 +85,10 @@ public class GT_Loader_Batteries
 		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt16, Materials.SuperconductorUHV, 2L),
 				GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Neutronium, 56L), Materials.Polybenzimidazole.getMolten(9216L),
 				CustomItemList.BatteryHull_UMV.get(1L), 600, 2000000);
+		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt16, Materials.Quantium, 8L),
+				GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Infinity, 8L), Materials.Neutronium.getMolten(9216L),
+				CustomItemList.BatteryHull_Small_UMV.get(1L), 2400, 2000000);
+
 		GT_Values.RA.addAssemblerRecipe(GT_OreDictUnificator.get(OrePrefixes.wireGt16, Materials.SuperconductorUHV, 2L),
 				GT_OreDictUnificator.get(OrePrefixes.plate, Materials.DraconiumAwakened, 64L), Materials.Polybenzimidazole.getMolten(18432L),
 				CustomItemList.BatteryHull_UxV.get(1L), 1200, 2000000);
@@ -122,6 +127,8 @@ public class GT_Loader_Batteries
 
 		CustomItemList.BatteryHull_UMV_Full.set(GT.addItem(tLastID = 585, "Medium Infinity Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 2048L)}));
 		GT.setElectricStats(32000 + tLastID, 419430400000L, GT_Values.V[12], 12L, -3L, true);
+		CustomItemList.BatteryHull_Small_UMV_Full.set(GT.addItem(tLastID = 586, "Small Infinity Plasma Battery", "Reusable UMV Energy Storage", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 2048L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 2048L)}));
+		GT.setElectricStats(32000 + tLastID, 214748364800000L, GT_Values.V[12], 12L, -3L, true);
 
 		CustomItemList.BatteryHull_UxV_Full.set(GT.addItem(tLastID = 590, "Large Infinity Battery", "Reusable", new Object[]{new TC_Aspects.TC_AspectStack(TC_Aspects.ELECTRUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.METALLUM, 4096L), new TC_Aspects.TC_AspectStack(TC_Aspects.POTENTIA, 4096L)}));
 		GT.setElectricStats(32000 + tLastID, 1677721600000L, GT_Values.V[13], 13L, -3L, true);
@@ -138,6 +145,8 @@ public class GT_Loader_Batteries
 		GT_ModHandler.addExtractionRecipe(CustomItemList.BatteryHull_UEV_Full.get(1L), CustomItemList.BatteryHull_UEV.get(1L));
 		GT_ModHandler.addExtractionRecipe(CustomItemList.BatteryHull_UIV_Full.get(1L), CustomItemList.BatteryHull_UIV.get(1L));
 		GT_ModHandler.addExtractionRecipe(CustomItemList.BatteryHull_UMV_Full.get(1L), CustomItemList.BatteryHull_UMV.get(1L));
+		GT_ModHandler.addExtractionRecipe(CustomItemList.BatteryHull_Small_UMV_Full.get(1L), CustomItemList.BatteryHull_Small_UMV.get(1L));
+		GT_Values.RA.addFluidExtractionRecipe(CustomItemList.BatteryHull_Small_UMV_Full.get(1L),CustomItemList.BatteryHull_Small_UMV.get(1L), Materials.Infinity.getPlasma(1440L), 10000, 500, 2000000);
 		GT_ModHandler.addExtractionRecipe(CustomItemList.BatteryHull_UxV_Full.get(1L), CustomItemList.BatteryHull_UxV.get(1L));
 
 	    // Recipes to actually fill the empty hulls with content
@@ -205,6 +214,10 @@ public class GT_Loader_Batteries
 				CustomItemList.BatteryHull_UMV.get(1L),
 				CustomItemList.BatteryHull_UMV_Full.get(1L),
 				null, 500, 125760);
+		GT_Values.RA.addFluidCannerRecipe(CustomItemList.BatteryHull_Small_UMV.get(1L),
+				CustomItemList.BatteryHull_Small_UMV_Full.get(1L),
+				Materials.Infinity.getPlasma(1440L),
+				null, 2400, 2000000);
 
 		// UxV 536870912
 		GT_Values.RA.addCannerRecipe(GT_OreDictUnificator.get(OrePrefixes.dust, Materials.Infinity, 8L),
