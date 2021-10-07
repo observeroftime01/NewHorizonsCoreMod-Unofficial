@@ -66,7 +66,9 @@ public class GT_Custom_Recipe_Loader implements Runnable{
         GT_Values.RA.addChemicalRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_HPIC.get(1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.IndiumGalliumPhosphide, 8), Materials.Naquadah.getMolten(576L), GT_Values.NF, gregtech.api.enums.ItemList.Circuit_Wafer_UHPIC.get(1L), GT_Values.NI, 400, 30720, true);
         GT_Values.RA.addChemicalRecipe(gregtech.api.enums.ItemList.Circuit_Wafer_NPIC.get(1L), GT_OreDictUnificator.get(OrePrefixes.dust, Materials.IndiumGalliumPhosphide, 64), Materials.Sunnarium.getMolten(1440L), GT_Values.NF, gregtech.api.enums.ItemList.Circuit_Wafer_PPIC.get(1L), GT_Values.NI, 100, 122880, true);
 
-
+        //Circuit stuff
+        GT_Values.RA.addAutoclaveSpaceRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Emerald, 1), GT_Values.NI, Materials.Europium.getMolten(16), gregtech.api.enums.ItemList.Circuit_Parts_RawCrystalChip.get(1L), 10000, 600, 320, false);
+        GT_Values.RA.addAutoclaveSpaceRecipe(GT_OreDictUnificator.get(OrePrefixes.gemExquisite, Materials.Olivine, 1), GT_Values.NI, Materials.Europium.getMolten(16), gregtech.api.enums.ItemList.Circuit_Parts_RawCrystalChip.get(1L), 10000, 600, 320, false);
 
 
 
